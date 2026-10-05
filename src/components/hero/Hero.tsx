@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, Github } from "lucide-react";
 import { site, socials } from "@/data/site";
 import { MagneticButton } from "@/components/ui/MagneticButton";
-import { Globe } from "@/components/hero/Globe";
+import { Laptop } from "@/components/hero/Laptop";
 
 const LINES = ["I BUILD", "INTELLIGENT", "MACHINES."];
 
@@ -50,7 +50,7 @@ export function Hero() {
             transition={{ duration: 1.2, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className="hidden lg:block h-[400px] w-[400px]"
           >
-            <Globe />
+            <Laptop />
           </motion.div>
         </div>
 
